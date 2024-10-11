@@ -67,8 +67,8 @@ transition: trasorm 300ms ease-in-out;
    backface-visibility: hidden;
 }
 .rodape{
-   background-color: blue;
-   color: rgb(58, 101, 180);
+   background-color: rgb(166, 166, 177);
+   color: rgb(0, 0, 0);
    position: fixed;
    bottom: 0%;
    width: 100%;
