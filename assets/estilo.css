@@ -27,7 +27,7 @@ justify-content: space-between;
    
   .cartao--conteudo{
    border-radius: 20px;
-   background-color: blueviolet;
+   background-color: rgb(0, 23, 155);
    height: 100%;
    transform-style: preserve-3d;
    transition: tranform 300ms ease-in-out;
@@ -38,7 +38,7 @@ justify-content: space-between;
 
   footer{
      background-color: black;
-     color: aliceblue;
+     color: rgb(31, 114, 187);
      position:fixed;
      bottom: 0;
      width: 100%;
@@ -49,7 +49,7 @@ justify-content: space-between;
   }
 
 .cartao:hover .cartao--contedo{
-    background-color: blue;
+    background-color: rgb(86, 115, 177);
     transform: rotateY(180deg);
 
 }
@@ -68,7 +68,7 @@ transition: trasorm 300ms ease-in-out;
 }
 .rodape{
    background-color: blue;
-   color: black;
+   color: rgb(58, 101, 180);
    position: fixed;
    bottom: 0%;
    width: 100%;
