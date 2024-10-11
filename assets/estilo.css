@@ -16,7 +16,7 @@ justify-content: space-between;
    text-align: center; 
 
   }
-  .cartao:hover  .cartao--contedo{
+  .cartao:hover  .cartao--conteudo{
     background-color: aqua;
     transform:rotateY(180deg) 
   }
