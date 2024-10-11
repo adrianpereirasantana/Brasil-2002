@@ -17,7 +17,7 @@ justify-content: space-between;
 
   }
   .cartao:hover  .cartao--conteudo{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     transform:rotateY(180deg) 
   }
   .cartao--resposta{
@@ -26,6 +26,9 @@ justify-content: space-between;
   }
    
   .cartao--conteudo{
+   border-radius: 20px;
+   background-color: blueviolet;
+   height: 100%;
    transform-style: preserve-3d;
    transition: tranform 300ms ease-in-out;
   }
