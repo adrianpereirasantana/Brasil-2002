@@ -4,7 +4,7 @@
 justify-content: space-between;
 }
  .cartao{
-   background-color: rgb(255, 254, 254);
+   background-color: rgb(255, 0, 0);
    color: rgb(0, 136, 255);
    border-radius: 56px;
    height: 344px;
@@ -17,7 +17,7 @@ justify-content: space-between;
 
   }
   .cartao:hover  .cartao--conteudo{
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(64, 62, 62);
     transform:rotateY(180deg) 
   }
   .cartao--resposta{
