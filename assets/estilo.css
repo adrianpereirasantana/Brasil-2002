@@ -1,84 +1,37 @@
-
-.conteudo{
-   display: flex;
+#conteudo{
+  display: flex;
 justify-content: space-between;
 }
- .cartao{
-   color: rgb(0, 136, 255);
-   border-radius: 56px;
-   height: 344px;
-   flex-grow: 1;
-   width: 430px;
-   flex-basis: calc(33%-6rem);
-   margin: 1rem 1rem;
-   font-size: 28px;
-   text-align: center; 
+.cartao{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border-radius: 56px;
+  height: 344px;
+  flex-grow: 1;
+  width: 430px;
+  flex-basis: calc(33%-6rem);
+  margin: 1rem 1rem;
+  font-size: 28px;
+  text-align:center; 
 
-  }
-  .cartao:hover  .cartao--conteudo{
-    background-color: rgb(64, 62, 62);
-    transform:rotateY(180deg) 
-  }
-  .cartao--resposta{
-    font-size: 20px;
-   
-  }
-   
-  .cartao--conteudo{
-   border-radius: 20px;
-   background-color: rgb(233, 235, 241);
-   height: 100%;
-   transform-style: preserve-3d;
-   transition: tranform 300ms ease-in-out;
-  }
-  .cartao--pergunta, .cartao--resposta{
-    backface-visibility: hidden;
-  }
-  .cartao--pergunta, .cartao--resposta{
-     backface-visibility: hidden;
-  }
-
-  footer{
-     background-color: rgb(255, 255, 255);
-     color: rgb(255, 255, 255);
-     position:fixed;
-     bottom: 0;
-     width: 100%;
-     height: 24px;
-     font-size: 14px;
-     text-align: center;
-
-  }
-
-.cartao:hover .cartao--contedo{
-    background-color: rgb(255, 255, 255);
-    transform: rotateY(180deg);
-
-}
- .cartao--resposta{
-   font-size: 20px;
  }
-.cartao--contedo{
-    border-radius: 20px;
-    background-color: blueviolet;
-    height: 100%;
-transform-style: preserve-3d;
-transition: trasorm 300ms ease-in-out;
-}
-.cartao--pergunta, .cartao--resposta{
-   backface-visibility: hidden;
-}
-.rodape{
-   background-color: rgb(166, 166, 177);
-   color: rgb(255, 255, 255);
-   position: fixed;
-   bottom: 0%;
-   width: 100%;
-   height: 25px;
-   font-size: 14%;
-   text-align: center;
-}
+ .cartao--resposta{
+  font-size: 20px;
 
+ }
+ .catao--conteudo{
+     transform-style: preserve-3d;
+     transition: transform 300ms ease-in-out;
 
+ }
 
-
+ footer{
+    background-color: rgb(29, 0, 0);
+    color: aliceblue;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    text-align: center;
+   }
